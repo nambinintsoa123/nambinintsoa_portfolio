@@ -1,0 +1,83 @@
+
+
+.photo_name {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.photo {
+    padding-right: 10px;
+}
+
+.diplome_obtenu {
+    margin: 10px;
+}
+.lieu_date{
+    display: flex;
+}
+.lieu{
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+.date{
+    padding-left: 20px;
+}
+.photo {
+    position: relative;
+    width: 250px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.photo_anim {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes slideShow {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    33.33% { opacity: 1; }
+    53.33% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.photo_anim:nth-child(1) {
+    animation: slideShow 15s infinite;
+}
+
+.photo_anim:nth-child(2) {
+    animation: slideShow 15s infinite 5s; /* Delay for the second image */
+}
+
+.photo_anim:nth-child(3) {
+    animation: slideShow 15s infinite 10s; /* Delay for the third image */
+}
+
+@media (max-width: 800px){
+    .middle{
+		display: block;
+		height: max-content;
+		width: 100%;
+		justify-content: center;
+    }
+    .photo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .photo_name{
+        display: block;
+    }
+	.content{
+		border: none;
+	}
+	.container{
+        align-items: start;
+    }
+}

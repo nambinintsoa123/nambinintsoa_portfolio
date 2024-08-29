@@ -1,0 +1,46 @@
+.middle{
+    display: block;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.formations{
+    width: 100%;
+
+}
+.middle h2{
+    text-align: center;
+}
+.content_formations{
+    width: 100%;
+
+}
+.content_outils, .content_language{
+    margin-inline: 20px;
+    border-radius: 10px;
+    border: solid 1px #070835;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 20px;
+}
+ .outil_item, item_lang{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background: darkgray;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.outil_item .icon, .item_lang .lang_icon{
+    width: 50px;
+    height: 50px;
+}
+.outil_item .titre, .item_lang .title_lang{
+    font-size: 16px;
+    text-align: center;
+}
