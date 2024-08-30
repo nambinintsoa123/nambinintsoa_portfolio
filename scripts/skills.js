@@ -30,15 +30,11 @@ const contentOutils = document.querySelector('.content_outils');
 
 // Ajouter plusieurs éléments dynamiquement
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/vmware.png', 'VMWare'));
+contentOutils.appendChild(createOutilItem('/icon/icon_outils/vb.png', 'Virtualbox'));
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/gns3.png', 'GNS3'));
-contentOutils.appendChild(createOutilItem('/icon/icon_outils/virtualbox.png', 'Virtualbox'));
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/packet_tracer.png', 'Packet tracer'));
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/linux.png', 'Linux'));
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/offiche.png', 'Office'));
-contentOutils.appendChild(createOutilItem('/icon/icon_outils/virtualbox.png', 'Virtualbox'));
-contentOutils.appendChild(createOutilItem('/icon/icon_outils/virtualbox.png', 'Virtualbox'));
-contentOutils.appendChild(createOutilItem('/icon/icon_outils/virtualbox.png', 'Virtualbox'));
-contentOutils.appendChild(createOutilItem('/icon/icon_outils/virtualbox.png', 'Virtualbox'));
 
 
 
@@ -76,8 +72,8 @@ function createItemLang(iconSrc, titleText) {
 const content_lang = document.querySelector('.content_language');
 
 // Ajouter plusieurs éléments dynamiquement
-content_lang.appendChild(createOutilItem('/icon/icon_outils/vmware.png', 'VMWare'));
-content_lang.appendChild(createOutilItem('/icon/icon_outils/gns3.png', 'GNS3'));
-content_lang.appendChild(createOutilItem('/icon/icon_outils/virtualbox.png', 'Virtualbox'));
-content_lang.appendChild(createOutilItem('/icon/icon_outils/packet_tracer.png', 'Packet tracer'));
-content_lang.appendChild(createOutilItem('/icon/icon_outils/linux.png', 'Linux'));
+content_lang.appendChild(createOutilItem('/icon/icon_language/html.png', 'HTML'));
+content_lang.appendChild(createOutilItem('/icon/icon_language/css.png', 'CSS'));
+content_lang.appendChild(createOutilItem('/icon/icon_language/javascript.png', 'JavaScript'));
+content_lang.appendChild(createOutilItem('/icon/icon_language/java.png', 'JAVA'));
+content_lang.appendChild(createOutilItem('/icon/icon_language/kotlin.png', 'Kotlin'));

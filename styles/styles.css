@@ -17,12 +17,17 @@
 	justify-content: center;
 	align-items: center;
 }
+
 .middle_right {
 	width: 50%;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.deutshpro h3{
+	color: blue;
+	padding-left: 40px;
 }
 @keyframes backgroundChange {
 	0% {
