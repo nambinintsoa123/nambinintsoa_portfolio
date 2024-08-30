@@ -3,12 +3,14 @@ html {
 	margin: 0;
 	padding: 0;
 	height: 100%;
+	color: lightgray;
 }
 .content {
 	margin-top: 80px;
 	border: 2px blue solid;
 	border-radius: 20px;
 	width: 900px;
+	background: #16325B;
 }
 .left_head {
 	width: 50%;
@@ -149,6 +151,9 @@ button{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 @media (max-width: 800px){
+	body{
+		background: #16325B;
+	}
     .middle{
 		display: block;
 		height: max-content;
@@ -171,4 +176,7 @@ button{
 	.container{
         align-items: start;
     }
+	.head{
+		border-radius:  0 0 0 0;
+	}
 }
