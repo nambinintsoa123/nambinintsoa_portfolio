@@ -121,9 +121,10 @@ html {
 	display: inline; 
     color: red;
   }
-  .deutshpro h1{
+  .deutshpro h3{
 	color: blue;
-  }
+	padding-left: 40px;
+}
   .foot p{
     text-align: center;
   }
