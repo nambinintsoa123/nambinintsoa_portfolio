@@ -23,12 +23,12 @@
     flex-wrap:wrap;
     padding: 20px;
 }
- .outil_item, item_lang{
+ .outil_item, .item_lang{
     height: 100px;
     width: 100px;
     display: flex;
     flex-direction: column;
-    background: darkgray;
+    background: lightgray;
     justify-content: space-around;
     align-items: center;
     border-radius: 5px;
@@ -43,4 +43,5 @@
 .outil_item .titre, .item_lang .title_lang{
     font-size: 16px;
     text-align: center;
+    color: #070835;
 }
