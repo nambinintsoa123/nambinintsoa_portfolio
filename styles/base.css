@@ -5,6 +5,7 @@ html {
 	height: 100%;
 }
 .content {
+	margin-top: 80px;
 	border: 2px blue solid;
 	border-radius: 20px;
 	width: 900px;
@@ -163,6 +164,7 @@ button{
 		padding-inline: 20px;
 	}
 	.content{
+		margin-top: 0;
 		border: none;
 	}
 	.container{
