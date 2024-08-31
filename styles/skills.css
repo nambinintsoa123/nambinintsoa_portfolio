@@ -26,7 +26,7 @@
  .outil_item, .item_lang{
     height: 80px;
     width: 80px;
-    display: bloc;
+    display: flex;
     flex-direction: column;
     background: lightgray;
     justify-content: space-around;
