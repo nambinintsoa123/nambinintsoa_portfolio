@@ -24,8 +24,8 @@
     padding: 20px;
 }
  .outil_item, .item_lang{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     display: bloc;
     flex-direction: column;
     background: lightgray;
