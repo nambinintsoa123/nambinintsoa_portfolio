@@ -178,5 +178,6 @@ button{
     }
 	.head{
 		border-radius:  0 0 0 0;
+		height: 20px;
 	}
 }
