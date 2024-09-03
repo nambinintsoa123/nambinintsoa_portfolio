@@ -24,12 +24,12 @@
     padding: 20px;
 }
  .outil_item, .item_lang{
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     background: lightgray;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 5px;
     padding: 20px;

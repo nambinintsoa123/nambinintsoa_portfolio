@@ -19,11 +19,7 @@ html {
 }
 
 .right_head {
-	width: 50%;
 	height: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
 }
 .icon_profile{
 	margin-right: 20px;
@@ -72,21 +68,23 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-right:60px;
-    width: 100%;;
+	padding-right:40px;
+    width: 100%;
   }
   .nav-links {
 	display: none; /* Masquer par défaut */
 	flex-direction: column;
 	position: absolute;
 	list-style: none;
-	width: 120px;
-    background: lightgray;
+	width: 100px;
 	z-index: 1000;
+	background: lightgray;
+	border-radius: 0 0 0 20px;
+
   }
   .nav-links li {
 	padding: 10px;
-	text-align: left;
+	text-align: right;
 }
 .nav-links a {
 	text-decoration: none;
@@ -163,6 +161,9 @@ button{
 	}.middle_left{
 		width: 100%;
 	}
+	.nav-links{
+		top: 40px;
+	}
 	.middle_left_text{
 		width: 100%;
 		text-align: left;
@@ -178,6 +179,6 @@ button{
     }
 	.head{
 		border-radius:  0 0 0 0;
-		height: 30px;
+		height: 40px;
 	}
 }

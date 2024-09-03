@@ -13,6 +13,9 @@
 
 .diplome_obtenu {
     margin: 10px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
 }
 .lieu_date{
     display: flex;
@@ -60,7 +63,7 @@
 
 @media (max-width: 800px){
     .middle{
-		display: block;
+		display: flex;
 		height: max-content;
 		width: 100%;
 		justify-content: center;
