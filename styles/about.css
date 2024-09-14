@@ -5,20 +5,38 @@
     flex-wrap: nowrap;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 .photo {
     padding-right: 10px;
 }
-
+.name_parcours{
+    line-height: 1.5;
+}
+.adresse{
+    padding-left: 20px;
+}
+.icon_titre_adresse{
+    display: flex;
+    align-items: center;
+}
 .diplome_obtenu {
     margin: 10px;
     width: 100%;
     border-radius: 20px;
     padding: 10px;
 }
+.titre_icon_diplome{
+    display: flex;
+    align-items: center;
+}
+.titre_icon_diplome h2{
+    padding-left: 10px;
+}
 .lieu_date{
     display: flex;
+    color: black;
 }
 .lieu{
     border-right: 1px solid black;

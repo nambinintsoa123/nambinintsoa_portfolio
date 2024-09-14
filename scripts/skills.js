@@ -35,6 +35,8 @@ contentOutils.appendChild(createOutilItem('/icon/icon_outils/gns3.png', 'GNS3'))
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/packet_tracer.png', 'Packet tracer'));
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/linux.png', 'Linux'));
 contentOutils.appendChild(createOutilItem('/icon/icon_outils/offiche.png', 'Office'));
+contentOutils.appendChild(createOutilItem('/icon/icon_outils/matlab.png','Matlab'));
+contentOutils.appendChild(createOutilItem('/icon/icon_outils/wireshark.png','Wireshark'));
 
 
 
@@ -77,3 +79,4 @@ content_lang.appendChild(createOutilItem('/icon/icon_language/css.png', 'CSS'));
 content_lang.appendChild(createOutilItem('/icon/icon_language/javascript.png', 'JavaScript'));
 content_lang.appendChild(createOutilItem('/icon/icon_language/java.png', 'JAVA'));
 content_lang.appendChild(createOutilItem('/icon/icon_language/kotlin.png', 'Kotlin'));
+content_lang.appendChild(createOutilItem('/icon/icon_language/python.png', 'Python'));

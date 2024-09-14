@@ -12,7 +12,11 @@
 }
 .content_formations{
     width: 100%;
+    padding-left: 20px;
 
+}
+.content_stages{
+    padding-left: 20px;
 }
 .content_outils, .content_language{
     margin-inline: 20px;
@@ -34,7 +38,7 @@
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 10px  #EEFEFE;
 }
 .outil_item .icon, .item_lang .lang_icon{
     width: 50px;

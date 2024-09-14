@@ -84,7 +84,7 @@ html {
   }
   .nav-links li {
 	padding: 10px;
-	text-align: right;
+	text-align: left;
 }
 .nav-links a {
 	text-decoration: none;
