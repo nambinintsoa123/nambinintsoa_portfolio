@@ -68,7 +68,6 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-right:40px;
     width: 100%;
   }
   .nav-links {
